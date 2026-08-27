@@ -120,7 +120,6 @@ export default function UploadPage() {
         ref={inputRef}
         type="file"
         accept="image/*"
-        capture="environment"
         className="sr-only"
         onChange={(e) => onPick(e.target.files?.[0])}
       />
